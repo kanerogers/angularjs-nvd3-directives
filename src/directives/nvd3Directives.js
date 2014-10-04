@@ -1124,7 +1124,7 @@
                                         .forceY(attrs.forcey === undefined ? [0] : scope.$eval(attrs.forcey))
                                         .tooltips(attrs.tooltips === undefined ? false : (attrs.tooltips  === 'true'))
                                         .noData(attrs.nodata === undefined ? 'No Data Available.' : scope.nodata)
-                                        .color(attrs.color === undefined ? nv.utils.defaultColor()  : scope.color())
+                                        .barColor(attrs.color === undefined ? nv.utils.defaultColor()  : scope.color())
                                         .showLegend(attrs.showlegend === undefined ? false : (attrs.showlegend === 'true'))
                                         .showControls(attrs.showcontrols === undefined ? false : (attrs.showcontrols === 'true'))
                                         .showValues(attrs.showvalues === undefined ? false : (attrs.showvalues === 'true'))
